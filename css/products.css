@@ -1,0 +1,93 @@
+/* General body styles */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+} */
+
+/* Header styles */
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+} */
+
+/* Main content styles */
+main {
+    height:80%;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Title styles */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Product grid layout */
+.product-grid {
+    height:80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual product card styles */
+.product-card {
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures rounded corners are applied to images */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Image styling */
+.product-card img {
+    /* width: 100%; */
+    height: 30vh; /* Maintain aspect ratio */
+}
+
+/* Product title styles */
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+/* Description and price styles */
+.product-card p {
+    margin: 10px;
+    color: #555; /* Slightly muted text color for description */
+}
+
+/* Link styling for details button */
+.product-card a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for button */
+}
+
+.product-card a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* No products message styling */
+.no-products-message {
+    text-align: center;
+    font-size: 1.2em;
+}

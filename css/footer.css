@@ -1,0 +1,56 @@
+footer{
+    background-color: #000;
+    color: #fff;
+    height: 80%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 6.5vw; */
+    padding: 0 100px;
+   
+  
+}
+/* div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+
+} */
+
+footer>h1{
+    font-size: 4vw;
+    /* margin-bottom: 3vh; */
+}
+
+
+
+
+ a{
+    text-decoration: none;
+    color: #fff;
+    /* margin-top: 2vh; */
+    
+    /* margin-bottom: 2vh; */
+}
+
+ h4{
+    font-size: 3vw;
+    /* margin-bottom: ; */
+}
+
+
+#f5 p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size for footer text */
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 600px) {
+    footer #f5 p {
+        font-size: 12px; /* Smaller font size on mobile devices */
+    }
+}
